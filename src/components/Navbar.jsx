@@ -4,8 +4,8 @@ import { nanoid } from "nanoid";
 
 const Navbar = () => {
   const buttons = [
-    { text: "Home", link: "#" },
-    { text: "About", link: "#" },
+    { text: "Home", link: "#home" },
+    { text: "About", link: "#about" },
     { text: "Projects", link: "#" },
     { text: "Education", link: "#" },
   ];

@@ -1,7 +1,9 @@
+import Title from "../components/Title";
+
 const About = () => {
   return (
-    <section className="flex h-[100vh] bg-collayer pt-24 items-center justify-center">
-      About
+    <section className="h-[86vh] bg-collayer scroll-mt-24" id="about">
+      <Title text="About" />
     </section>
   );
 };
